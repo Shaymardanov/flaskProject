@@ -7,7 +7,7 @@
 ## Команды для Docker
 ```
 docker build -t myflaskproject .
-docker run -d -p 5000:8080 myflaskproject
+docker run -d -p 8080:8080 myflaskproject
 ```
 ---
 Вызов сервиса [GET | POST]
