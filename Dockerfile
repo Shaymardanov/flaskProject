@@ -11,4 +11,4 @@ RUN poetry install --no-interaction
 
 EXPOSE 8080
 
-CMD flask run --host=0.0.0.0 --port=8080
+CMD gunicorn -w 4 -b 0.0.0.0:8080 "app:create_app()"

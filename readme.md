@@ -10,7 +10,7 @@ docker build -t myflaskproject .
 docker run -d -p 5000:8080 myflaskproject
 ```
 ---
-Вызов сервиса [GET]
+Вызов сервиса [GET | POST]
 
 ```
 http://localhost:8080/
